@@ -1,3 +1,8 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) 
@@ -19,3 +24,10 @@ public:
         return i + 1;
     }
 };
+int main()
+{
+    vector<int> nums = {1,1,2};
+    Solution s;
+    cout << s.removeDuplicates(nums) << endl;
+    return 0;
+}
