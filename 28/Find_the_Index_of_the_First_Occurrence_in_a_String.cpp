@@ -20,11 +20,11 @@ public:
 int main() {
     std::string haystack1 = "sadbutsad";
     std::string needle1 = "sad";
-    std::cout << "Index of first occurrence: " << findIndex(haystack1, needle1) << std::endl;
+    std::cout << "Index of first occurrence: " << Solution().findIndex(haystack1, needle1) << std::endl;
 
     std::string haystack2 = "leetcode";
     std::string needle2 = "leeto";
-    std::cout << "Index of first occurrence: " << findIndex(haystack2, needle2) << std::endl;
+    std::cout << "Index of first occurrence: " << Solution().findIndex(haystack2, needle2) << std::endl;
 
     return 0;
 }
